@@ -23,6 +23,13 @@ else{
 
 <body>
     <div class="container mt-5">
+    <nav class="navbar" style="background-color: white;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./list/list-product.php">
+                    <p style="font-size:30px;font-weight: bold;padding-left: 20px ;cursor: pointer;"><span style="font-size: 35px;color:#088178;">S.</span>hop</p>
+                    </a>
+                </div>
+            </nav>
         <?php include("message.php") ?>
         <div class="row">
             <div class="col-md-12">
@@ -41,7 +48,7 @@ else{
                                     <th>Description</th>
                                     <th width="50%">Fiche Technique</th>
                                     <th>Categorie</th>
-                                    <th width="20%">Action</th>
+                                    <th width="25%">Action</th>
                                 </tr>
                             </thead>
                             <tbody>
