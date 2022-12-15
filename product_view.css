@@ -1,0 +1,58 @@
+nav{
+    background-color: white;
+    border-bottom:1px solid rgba(0, 0, 0, 0.1);
+}
+
+img{
+    border-radius: 12px;
+    border: 1px solid rgb(8, 129, 120, 0.2);
+    box-shadow: 5px 10px 10px rgb(0, 0, 0, 0.1);
+}
+
+img:hover{
+    transition-delay: 100ms;
+    transform: scale(1.01);
+}
+
+#imgview{
+    border-radius: 12px;
+}
+
+#description h3{
+    font-weight: 300;
+    padding-left: 20px;
+}
+
+#description h5{
+    padding-left: 30px;
+}
+
+#description p{
+    width: 80%;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#description h1{
+    padding-left: 20px;
+}
+
+#description button{
+    margin-left: 20px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(8, 129, 120, 1);
+}
+
+#description button:hover{
+    color: rgb(8, 129, 120, 1);
+    border: 2px solid rgb(8, 129, 120, 1);
+    background-color: white;
+}
+
+
+
+#imgview{
+    overflow: hidden;
+    width: 40%;
+}
